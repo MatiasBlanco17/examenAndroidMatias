@@ -2,8 +2,8 @@ package objetos;
 
 public class enfermedad {
     private int id;
-    private String [] enfermedad = { "brucelosis", "fiebre aftosa", "salmonella", "rabia"} ;
-    private int [] precios = { 75000, 22500,35000,54000,};
+    private String [] enfermedad = { "brucelosis", "fiebre aftosa", "salmonella", "rabia","parvovirus"};
+    private int [] precios = { 75000, 22500,35000,54000,58000};
 
     public int getId() {
         return id;

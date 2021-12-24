@@ -36,7 +36,7 @@ public class GESTION_ANIMALES_ACT extends AppCompatActivity {
     public void AnadirFicha(View view)
     {
 //obtener date base
-        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this,"CineFlix", null,1 );
+        AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this,"VeticalCare", null,1 );
         SQLiteDatabase db = admin.getWritableDatabase();//sobreescritura de base de datos
 
 
